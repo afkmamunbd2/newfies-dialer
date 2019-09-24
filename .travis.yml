@@ -2,11 +2,11 @@ language: python
 python:
   - "2.7"
 env:
-  - DJANGO=1.7.7
+  - DJANGO=1.7
 services:
   - redis
 install:
-  #- pip install -q Django==$DJANGO #--use-mirrors
+  # - pip install -q Django==$DJANGO --use-mirrors
   - sudo apt-get install flite
   - bash requirements/install.sh
   # - pip install pep8 --use-mirrors
@@ -24,4 +24,4 @@ script:
 # whitelist
 branches:
   only:
-    - master
+    - develop
