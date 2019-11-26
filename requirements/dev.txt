@@ -1,0 +1,6 @@
+Sphinx
+Werkzeug
+ipython
+pip-tools
+pygraphviz
+fake-factory
