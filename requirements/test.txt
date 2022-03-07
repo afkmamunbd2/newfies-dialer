@@ -1,5 +1,5 @@
 pytest==2.6.4
-pytest-django==2.8.0
+pytest-django==2.9.0
 pytest-pythonpath==0.6
 pytest-xdist==1.15.0
 ipdb==0.10.0
