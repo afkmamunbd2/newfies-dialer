@@ -801,13 +801,13 @@ func_install_frontend(){
     echo ""
 
     #Install Depedencies
-    #func_install_dependencies
+    func_install_dependencies
 
     #Install Redis
-    #func_install_redis
+    func_install_redis
 
     #Install RabbitMQ
-    #func_install_rabbitmq
+    func_install_rabbitmq
 
     #Create and enable virtualenv
     func_setup_virtualenv
